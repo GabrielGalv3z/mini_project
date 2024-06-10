@@ -20,6 +20,7 @@ header {
     top: 0px;
     text-align: center;
     border: 5px solid rgb(2, 38, 6);
+    z-index: 2;
 }
 
 
@@ -49,7 +50,7 @@ li {
 .main-text {
     
     margin-top: 250px;
-    margin-left: 350px;
+    margin-left: 600px;
     width: 350px;
     font-size: 40px;
 
@@ -59,9 +60,10 @@ li {
     height: 200px;
     width: 800px;
     margin-top: 10px;
-    margin-left: 75px;
-    opacity: 0.1;
+    margin-left: 350px;
+    opacity: 0.2;
     position:static;
+    z-index: 1;
 }
 
 /*.content {
@@ -90,5 +92,5 @@ h3 {
 
 #form-title {
     text-align: center;
-    margin-top: 550px;
+    margin-top: 450px;
 }
